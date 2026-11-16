@@ -1,0 +1,9 @@
+project: savantenvs/turbovnc
+target: rfb_server
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/rfb_server/testsuite
+cmds:
+  - cmd: /mayhem/rfb_server @@
+    afl: true
+    timeout: 30

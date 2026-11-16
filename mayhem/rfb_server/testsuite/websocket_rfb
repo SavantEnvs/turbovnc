@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: localhost
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Protocol: binary
+Origin: http://localhost
+
+‚Œ4Vx@rX"eV"nr‚‚4Vx5‚ž4Vx4Vz4V4Vx4Vx4W8ÄRy4Vxu
